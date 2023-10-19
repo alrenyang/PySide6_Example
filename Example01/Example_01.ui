@@ -17,10 +17,10 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>50</y>
-      <width>491</width>
-      <height>171</height>
+      <x>0</x>
+      <y>0</y>
+      <width>351</width>
+      <height>81</height>
      </rect>
     </property>
     <property name="text">
@@ -165,8 +165,8 @@
      <y>317</y>
     </hint>
     <hint type="destinationlabel">
-     <x>365</x>
-     <y>217</y>
+     <x>225</x>
+     <y>102</y>
     </hint>
    </hints>
   </connection>
@@ -175,5 +175,6 @@
   <slot>Button_slot1()</slot>
   <slot>Button_slot2()</slot>
   <slot>Button_slot3()</slot>
+  <slot>slider_Changed_Slot01()</slot>
  </slots>
 </ui>
